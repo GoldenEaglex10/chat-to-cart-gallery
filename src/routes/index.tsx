@@ -37,7 +37,7 @@ function Index() {
     const t = setInterval(() => setI((v) => (v + 1) % scenes.length), 5000);
     return () => clearInterval(t);
   }, []);
-  const s = scenes[i];
+  const s = scenes[i] ?? scenes[0]!;
 
   return (
     <div className="min-h-screen overflow-x-hidden bg-background">
