@@ -80,7 +80,7 @@ function Index() {
 
         <div className="relative flex justify-center [perspective:1600px]">
           <div className="absolute inset-0 -z-0 scale-125 bg-glow" />
-          <Chip className="left-0 top-16 [animation-delay:-1s]" icon={<CreditCard className="size-4" />} label="Payment received" sub={s.price} />
+          <Chip className="-left-8 top-4 [animation-delay:-1s]" icon={<CreditCard className="size-4" />} label="Payment received" sub={s.price} />
           <Chip className="-right-2 top-40 [animation-delay:-3s]" icon={<CalendarCheck className="size-4" />} label="Auto reminders" sub="Sent 1h before" />
           <Chip className="bottom-24 -left-4 [animation-delay:-2s]" icon={<Truck className="size-4" />} label="Delivery tracking" sub="Live updates" />
           <Chip className="bottom-6 right-4 [animation-delay:-4s]" icon={<ShoppingBag className="size-4" />} label="+38 orders today" sub="via WhatsApp" />
